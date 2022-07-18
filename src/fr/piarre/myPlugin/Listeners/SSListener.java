@@ -1,7 +1,5 @@
 package fr.piarre.myPlugin.Listeners;
 
-import fr.piarre.myPlugin.Commands.SS;
-import fr.piarre.myPlugin.Main;
 import fr.piarre.myPlugin.Utils.ItemBuilder;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -12,23 +10,18 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
 
-public class SSItems implements Listener {
+public class SSListener implements Listener {
 
-    SS command;
-
-    Main plugin;
-
-    public SSItems(Main plugin, SS command) {
-        this.plugin = plugin;
-        this.command = command;
-    }
+    Inventory banInv;
 
     @EventHandler
     public void onInteract(InventoryClickEvent event) {
-        if (event.getInventory() == null) return;
         Player player = (Player) event.getWhoClicked();
 
+        if (event.getCurrentItem() == null) return;
+        if (event.getClickedInventory() == null) return;
         if (!(event.getWhoClicked() instanceof Player)) return;
+
         if (event.getView().getTitle().equalsIgnoreCase("§1Staff mod")) {
             event.setCancelled(true);
 
@@ -36,13 +29,13 @@ public class SSItems implements Listener {
                 case TNT:
                     break;
                 case NETHERITE_SWORD:
-                    Inventory banInv = Bukkit.createInventory(null, 3 * 9, "Ban");
+                    this.banInv = Bukkit.createInventory(null, 3 * 9, "§4Ban");
 
-                    ItemBuilder back = new ItemBuilder(Material.BARRIER).setName(ChatColor.RED + "Back").setLore(ChatColor.GRAY + "Back to the menu");
+                    ItemBuilder back = new ItemBuilder(Material.ARROW).setName(ChatColor.RED + "Back").setLore(ChatColor.GRAY + "Back to the menu");
 
-                    banInv.setItem(0, back.toItemStack());
+                    this.banInv.setItem(26, back.toItemStack());
 
-                    event.getWhoClicked().openInventory(banInv);
+                    event.getWhoClicked().openInventory(this.banInv);
                     break;
                 case BARRIER:
                     break;

@@ -1,8 +1,16 @@
 name: myPlugin
 main: fr.piarre.myPlugin.Main
 version: 1.0.0
+api-version: 1.16
 author: Pierre
 commands:
-  test:
+  ss:
     description: Test command
-    usage: /test
+    permission-message: You need the permission to use this command
+    permission: myPlugin.ss
+  mode:
+    description: Test command
+    permission: myPlugin.mode
+  gui:
+    description: Test command
+    permission: myPlugin.gui

@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" build-on-make="true" name="myPlugin:jar">
-    <output-path>$PROJECT_DIR$/../../Test/spigot/plugins</output-path>
+    <output-path>$PROJECT_DIR$/../../DevServer/spigot1.16.5/plugins</output-path>
     <root id="archive" name="myPlugin.jar">
       <element id="module-output" name="myPlugin" />
       <element id="extracted-dir" path="$PROJECT_DIR$/server.jar" path-in-jar="/" />
