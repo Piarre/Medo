@@ -1,0 +1,8 @@
+name: myPlugin
+main: fr.piarre.myPlugin.Main
+version: 1.0.0
+author: Pierre
+commands:
+  test:
+    description: Test command
+    usage: /test
