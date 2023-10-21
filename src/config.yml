@@ -1,0 +1,11 @@
+player:
+  # {NAME} to the player name
+  # {DISPLAYNAME} to the player display name
+  notfound: "§rPlayer {NAME} not found !"
+  mode:
+    player:
+      set-player: "§6{DISPLAYNAME} is now in §a§lplayer §6mode."
+      set-staff: "§6{DISPLAYNAME} is now in §c§lstaff §6mode."
+    self:
+      set-player: "§6Your are now in §a§lplayer §6mode."
+      set-staff: "§6Your are now in §c§lstaff §6mode."

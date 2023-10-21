@@ -6,11 +6,10 @@ author: Pierre
 commands:
   ss:
     description: Test command
+    usage: /<ss>
     permission-message: You need the permission to use this command
     permission: myPlugin.ss
   mode:
+    usage: /<mode>
     description: Test command
     permission: myPlugin.mode
-  gui:
-    description: Test command
-    permission: myPlugin.gui

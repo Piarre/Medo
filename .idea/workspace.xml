@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7c36bfa3-f1ed-40e4-b9b3-780bb5dbbb36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/myPlugin_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/server.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myPlugin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Commands/ModeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Commands/SS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Listeners/BanListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Listeners/SSListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Utils/ItemBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Utils/Modes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Commands/ModeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Commands/SS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Commands/SS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Listeners/BanListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Listeners/BanListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Listeners/SSListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Listeners/SSListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Utils/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Utils/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Utils/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Utils/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Utils/Modes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/piarre/myPlugin/Utils/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/fr/piarre/myPlugin/Commands/ModeController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_351/src.zip!/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/fr/piarre/myPlugin/Commands/Mode.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/fr/piarre/myPlugin/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KotlinCodeInsightWorkspaceSettings">
@@ -50,6 +47,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2BwZZZVuY8scWDAFoGD9YfVs8TH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -65,11 +65,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Java/ArgentaPierre1",
-    "project.structure.last.edited": "Artifacts",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Dev/Java/myPlugin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -79,6 +87,11 @@
       <recent name="D:\Java\myPlugin\src\fr\piarre\myPlugin" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="build" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,8 +100,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657819164604</updated>
+      <workItem from="1681490402093" duration="23000" />
+      <workItem from="1681560089632" duration="1578000" />
+      <workItem from="1694166024304" duration="76000" />
+      <workItem from="1697871457021" duration="1130000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
